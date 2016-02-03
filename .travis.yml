@@ -1,0 +1,7 @@
+install:
+  - echo pants
+  - echo foo
+
+script: ls
+
+foo: bar
