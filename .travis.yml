@@ -1,6 +1,6 @@
 install:
-  - echo "cat: $cat"
-  - echo "dog: $dog"
+  - echo "cats are ${cat}"
+  - echo "dogs are ${dog}"
   - sleep 30
 
 script: ls
