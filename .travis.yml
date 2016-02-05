@@ -5,3 +5,11 @@ install:
 script: ls
 
 foo: bar
+
+env:
+  - dog=yuck
+  - dog=ew
+  - cat=cute
+  - cat=adorable
+
+  
