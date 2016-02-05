@@ -1,6 +1,6 @@
 install:
-  - echo pants
-  - echo foo
+  - echo $cat
+  - echo $dog
 
 script: ls
 
