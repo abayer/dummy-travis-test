@@ -1,6 +1,7 @@
 install:
   - echo $cat
   - echo $dog
+  - sleep 30
 
 script: ls
 
