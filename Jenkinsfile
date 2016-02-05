@@ -1,4 +1,4 @@
 node {
-     git "git://github.com/abayer/dummy-travis-test.git", branch: "env-test"
+     git branch: 'env-test', url: 'git://github.com/abayer/dummy-travis-test.git'
      travisPipelineConverter(".travis.yml")
 }
